@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <div class="bg-img">
+      <img src="./images/bg-pattern.svg" alt="" />
+    
+    <div class="container">
+      <section class="header">
+        <div class="circles">
+          <img src="./images/pattern-circles.svg" alt="" />
+        </div>
+        <h3 class="headline">Simple, traffic-based pricing</h3>
+        <p class="signup">Sign-up for our 30-day trial. No credit card required.</p>
+      </section>
+      <section class="body">
+        <div class="card">
+          <p class="pageviews"><span id="pageviews"> 100K </span>Pageviews </p>
+          <div class="slide-section">
+            <input type="range" min="0" max="4" value="2" id="slider-bar">
+            <div class="price-section">
+              <span class="cost" id="cost">16</span>
+              <p class="per-month" id="monthly"> /month </p>
+            </div>
+          </div>
+          <div class="montlhy">Monthly Billing 
+            <label class="switch">
+              <input type="checkbox" /> 
+              <span class="thumb round" id="switch"></span>
+            </label>
+            Yearly Billing <span class="discount"> -25%</span> </div>
+          <div class="features-container">
+            <div class="features-section">
+              <span class="features">Unlimited websites </span>
+              <span class="features">100% data ownership </span>
+              <span class="features">Email reports </span>
+            </div>
+            <button class="trial">Start my trial</button>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://www.linkedin.com/in/christos-durro-53b33320a/">Christos Durro</a>.
+        </div>
+      </section>
+    </div>
+  </div>
+  </body>
+</html>
