@@ -31,6 +31,6 @@ I also learned how to create a toggle switch and use the selectors "::before" an
 
 ## Author
 
-- Website - [Christos Durro]
+- [Christos Durro]
 - Frontend Mentor - [@ChristosDurro](https://www.frontendmentor.io/profile/ChristosDurro)
 
