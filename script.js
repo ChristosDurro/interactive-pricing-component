@@ -16,6 +16,12 @@ const perMonth = [8, 12, 16, 24, 36];
 
 slider.addEventListener("input", () => {
     updateValue();
+    let value = slider.value * 25;
+    slider.style.background = `linear-gradient(to right,
+        hsl(174, 77%, 80%) 0%,
+        hsl(174, 77%, 80%) ${value}%,
+        hsl(224, 65%, 95%) 0%,
+        hsl(224, 65%, 95%) 100%)`;
 });
 
 // Toggler for monthly or yearly charging
